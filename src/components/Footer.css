@@ -1,0 +1,233 @@
+.Footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 200px;
+  border-top: 1px outset black;
+}
+
+.Footer-wrap {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.Footer-logo {
+  width: 350px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.Footer-logo > img {
+  width: 150px;
+}
+
+.Footer-logo > p {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.Footer-uls {
+  display: flex;
+  align-items: start;
+  gap: 52px;
+}
+
+.Footer-ul {
+  list-style: none;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.Footer-ul-p {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.Footer-ul > li > a {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.Footer-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.Footer-link-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.Footer-link-icons > a > img {
+  width: 35px;
+}
+
+.Footer-bottom {
+  width: 100%;
+  padding: 15px;
+  margin-top: 69px;
+  border-top: 1px outset black;
+}
+
+.Footer-bottom > h1 {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: inherit;
+}
+
+.credit {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.Name {
+  border-radius: 50%;
+  border: 2px solid black;
+  animation: name 30s linear infinite;
+  /* box-shadow: 0px 0px 10px 15px black; */
+}
+
+@keyframes name {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* Responsiv dizayn uchun media queries */
+
+/* Mobil ekranlar uchun optimallashtirish */
+@media (max-width: 500px) {
+  .Footer {
+    margin-top: 100px; /* Mobilda yuqoridan bo'shliqni kamaytirish */
+  }
+
+  .Footer-wrap {
+    flex-direction: column; /* Vertikal joylashish */
+    align-items: center; /* Markazlashtirish */
+  }
+
+  .Footer-logo {
+    width: 100%; /* Logo kengligini 100% qilish */
+    align-items: center; /* Markazlashtirish */
+    text-align: center; /* Matnni markazlashtirish */
+  }
+
+  .Footer-logo > img {
+    width: 120px; /* Logo rasm kengligini kichraytirish */
+  }
+
+  .Footer-uls {
+    flex-direction: column; /* Ul va linklarni vertikal qilish */
+    gap: 20px; /* Bo'shliqni kamaytirish */
+    align-items: center; /* Markazlashtirish */
+  }
+
+  .Footer-ul {
+    row-gap: 15px;
+    text-align: center; /* Textni markazlashtirish */
+  }
+
+  .Footer-ul-p {
+    font-size: 18px; /* Fontni kichraytirish */
+  }
+
+  .Footer-ul > li > a {
+    font-size: 14px; /* Link font o'lchamini kichraytirish */
+  }
+
+  .Footer-links {
+    flex-direction: column; /* Linklarni vertikal joylash */
+    align-items: center; /* Markazlashtirish */
+    gap: 15px;
+  }
+
+  .Footer-link-icons > a > img {
+    width: 30px; /* Ikkita link ikonkalarini kichraytirish */
+  }
+
+  .Footer-bottom > h1 {
+    font-size: 16px; /* Font o'lchamini kichraytirish */
+  }
+}
+
+/* Planshet uchun optimallashtirish */
+@media (min-width: 501px) and (max-width: 765px) {
+  .Footer-wrap {
+    flex-direction: column; /* Vertikal joylashish */
+    align-items: center; /* Markazlashtirish */
+  }
+
+  .Footer-logo {
+    width: 70%; /* Logo kengligini qisqartirish */
+    text-align: center; /* Logo va matnni markazlashtirish */
+  }
+
+  .Footer-logo > img {
+    width: 130px; /* Logo rasmni kichraytirish */
+  }
+
+  .Footer-uls {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .Footer-ul-p {
+    font-size: 20px;
+  }
+
+  .Footer-ul > li > a {
+    font-size: 16px;
+  }
+
+  .Footer-link-icons > a > img {
+    width: 32px; /* Ikkita link ikonkalarini kichraytirish */
+  }
+
+  .Footer-bottom > h1 {
+    font-size: 17px;
+  }
+}
+
+/* Kattaroq ekranlar uchun */
+@media (min-width: 766px) {
+  .Footer-wrap {
+    justify-content: space-between; /* Kattaroq ekranlarda joylashuvni yaxshilash */
+  }
+
+  .Footer-logo {
+    width: 350px;
+  }
+
+  .Footer-uls {
+    gap: 52px;
+  }
+
+  .Footer-bottom > h1 {
+    font-size: 18px; /* Kattaroq ekranlarda normal font o'lchami */
+  }
+}

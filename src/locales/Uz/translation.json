@@ -1,0 +1,48 @@
+{
+  "home": "Bosh sahifa",
+  "project": "Loyihalar",
+  "services": "Xizmatlar",
+  "about": "Haqimizda",
+
+  "Home-p1": "ZAMONAVIY INTER'ER",
+  "Home-h1": "Inter'eringizni yarating.",
+  "Home-p2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+  "Home-btn": "BIZ BILAN BOG'LANISH",
+
+  "Footer-logo-p": "Ammo men sizga bu lazzatdan voz kechish haqidagi noto‘g‘ri tushunchani tushuntirishim kerak.",
+  "Footer-ul1-p": "Tezkor havolalar",
+  "Footer-ul1-link1": "Kompaniyamiz haqida",
+  "Footer-ul1-link2": "Biz taqdim etayotgan xizmatlar",
+  "Footer-ul1-link3": "Karyera va imkoniyatlar",
+  "Footer-ul1-link4": "Maxfiylik siyosati",
+  "Footer-ul1-link5": "Biz bilan bog‘laning",
+
+  "Footer-ul2-p": "Kompaniya",
+  "Footer-ul2-link2": "Mijozlar fikri",
+  "Footer-ul2-link3": "So‘nggi yangiliklar",
+  "Footer-ul2-link4": "Bizning vazifamiz",
+  "Footer-ul2-link5": "Bepul taklif oling",
+
+  "Footer-ul3-p": "Biz bilan bog‘laning",
+  "Footer-ul3-link1": "Sagrada Familia, Herba",
+  "Footer-ul3-link2": "Ko‘cha Front, AQSH",
+  "Footer-ul3-link3": "brandoxide@gmail.com",
+  "Footer-ul3-link4": "002-568423591",
+
+  "Footer-ul4-p": "Ijtimoiy tarmoqlarda bizni kuzating",
+  "Footer-bottom-text": "Mualliflik huquqi @ 2020 Brandoxide. Barcha huquqlar himoyalangan. | Dasturchi Ikromboy tomonidan yaratilgan",
+
+  "Project-p1": "BIZ HAQIMIZDA",
+  "Project-h1": "Interyer — bu iroda",
+  "Project-h1-resume": "Mextreo davrining ifodasi",
+  "Project-p2": "Lorem Ipsum matnining ko‘plab turlari mavjud, ammo ularning aksariyati biror shaklda o‘zgartirilgan — kulgili iboralar kiritilgan yoki tasodifiy so‘zlar ishlatilgan bo‘lib, ular ishonarli ko‘rinmaydi. Agar siz Lorem Ipsum matnidan foydalanmoqchi bo‘lsangiz, matn ichida uyatli yoki noo‘rin so‘zlar yashirin emasligiga ishonch hosil qiling. Internetdagi barcha Lorem Ipsum generatorlari zarur hollarda oldindan belgilangan matn bo‘laklarini takrorlaydi, bu esa uni Internetdagi birinchi haqiqiy generatorga aylantiradi.",
+  "Project-btn": "BATAFSIL MA'LUMOT",
+
+  "Services-h1-1": "Yillar davomida",
+  "Services-h1-2": "muvaffaqiyatli ishlash",
+  "Services-h1-3": "bozorda",
+  "Services-btn": "BATAFSIL O‘QISH",
+
+  "About-text": "3000+ bajarilgan ishlar",
+  "About-text2": "Biz muvaffaqiyatli bajargan ishlar"
+}

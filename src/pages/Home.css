@@ -1,0 +1,145 @@
+.Home {
+  width: 100%;
+  padding: 50px 30px;
+  display: flex;
+  justify-content: center; /* Ekran o'lchamiga qarab markazlashdi */
+}
+
+.Home-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Home-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Home-text :nth-child(1) {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #646464;
+  margin-bottom: 15px;
+}
+
+.Home-text :nth-child(2) {
+  width: 500px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 78px;
+  letter-spacing: 0%;
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+.Home-text :nth-child(3) {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: inherit;
+  margin-bottom: 35px;
+}
+
+.Home-btn {
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background: #37806b;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0%;
+  color: inherit;
+  border: 2px solid #37806b;
+}
+
+.Home-btn:active {
+  color: inherit;
+  background: #37806b;
+}
+
+.Home-img {
+  width: 451px;
+}
+
+/* Responsiv dizayn uchun media queries */
+
+/* Mobil uchun optimallashtirish */
+@media (max-width: 500px) {
+  .Home {
+    padding: 30px 20px;
+  }
+
+  .Home-wrapper {
+    flex-direction: column; /* Vertical alignment uchun flex-directionni o'zgartirdik */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Home-text {
+    width: 100%; /* Mobilda butun kenglikni egallashi uchun */
+    text-align: center; /* Mobilda markazlashgan matn */
+  }
+
+  .Home-text :nth-child(2) {
+    font-size: 36px; /* Mobil uchun kichikroq font */
+    line-height: 42px; /* Line heightni kichraytirdik */
+    width: auto; /* Kenglikni cheklash */
+  }
+
+  .Home-text :nth-child(3) {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px; /* Kichik ekranlarda marginni kamaytirish */
+  }
+
+  .Home-btn {
+    font-size: 14px; /* Mobilda button uchun font o'lchamini kichraytirish */
+    padding: 8px 15px;
+  }
+
+  .Home-img {
+    width: 100%; /* Mobilda rasm kengligini 100% qilib, ekranga moslashtiramiz */
+    margin-top: 20px; /* Rasm va matn orasiga bo'shliq qo'shish */
+  }
+}
+
+/* Planshet uchun optimallashtirish */
+@media (min-width: 501px) and (max-width: 765px) {
+  .Home-wrapper {
+    flex-direction: column; /* Vertical alignment uchun */
+  }
+
+  .Home-text {
+    width: 80%; /* Planshetda matnning kengligini sozlash */
+    text-align: center;
+  }
+
+  .Home-text :nth-child(2) {
+    font-size: 56px; /* Planshetda o'rta o'lchamdagi font */
+    line-height: 60px;
+  }
+
+  .Home-text :nth-child(3) {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .Home-img {
+    width: 80%; /* Planshetda rasmni kichraytirish */
+    margin-top: 20px;
+  }
+}

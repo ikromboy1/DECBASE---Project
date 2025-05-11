@@ -1,0 +1,118 @@
+.Services {
+  width: 100%;
+  padding: 50px 30px;
+  display: flex;
+  justify-content: center; /* Elementlarni markazlashtirish */
+}
+
+.Services-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Services-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Services-text > img {
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+.Services-text > p {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 65px;
+  letter-spacing: 4%;
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+.Services-btn {
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background: #37806b;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0%;
+  color: inherit;
+  border: 2px solid #37806b;
+}
+
+.Services-img {
+  width: 451px;
+}
+
+/* Responsiv dizayn uchun media queries */
+
+/* Mobil ekranlar uchun optimallashtirish */
+@media (max-width: 500px) {
+  .Services {
+    padding: 30px 20px; /* Mobilda bo'shliqni kamaytirish */
+  }
+
+  .Services-wrapper {
+    flex-direction: column; /* Vertikal joylashish */
+    align-items: center; /* Markazlashtirish */
+  }
+
+  .Services-text {
+    width: 100%; /* Matnni to'liq kenglikka chiqarish */
+    text-align: center; /* Matnni markazlashtirish */
+  }
+
+  .Services-text > p {
+    font-size: 28px; /* Mobil uchun kichikroq font */
+    line-height: 38px;
+    letter-spacing: 2%;
+  }
+
+  .Services-btn {
+    font-size: 14px; /* Button font o'lchamini kichraytirish */
+    padding: 8px 15px;
+  }
+
+  .Services-img {
+    width: 100%; /* Rasmning kengligini 100% qilib, ekranga moslashtirish */
+    margin-top: 20px; /* Rasm va matn orasiga bo'shliq qo'shish */
+  }
+}
+
+/* Planshet ekranlari uchun optimallashtirish */
+@media (min-width: 501px) and (max-width: 765px) {
+  .Services-wrapper {
+    flex-direction: column; /* Vertikal joylashish */
+    align-items: center; /* Markazlashtirish */
+  }
+
+  .Services-text {
+    width: 80%; /* Matn kengligini qisqartirish */
+    text-align: center; /* Matnni markazlashtirish */
+  }
+
+  .Services-text > p {
+    font-size: 38px; /* Planshet uchun fontni kichraytirish */
+    line-height: 50px;
+  }
+
+  .Services-btn {
+    font-size: 15px; /* Planshet uchun buttonni kichraytirish */
+    padding: 9px 18px;
+  }
+
+  .Services-img {
+    width: 80%; /* Planshet uchun rasmni kichraytirish */
+    margin-top: 20px;
+  }
+}
+

@@ -1,0 +1,143 @@
+.Project {
+  width: 100%;
+  padding: 50px 30px;
+  display: flex;
+  justify-content: center; /* Elementlarni markazlashtirish */
+}
+
+.Project-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Project-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Project-text :nth-child(1) {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: inherit;
+}
+
+.Project-text :nth-child(2) {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: 0%;
+  color: inherit;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.Project-text :nth-child(3) {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: inherit;
+  margin-bottom: 30px;
+}
+
+.Project-btn {
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background: #37806b;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0%;
+  color: inherit;
+  border: 2px solid #37806b;
+}
+
+.Project-img {
+  width: 551px;
+}
+
+/* Responsiv dizayn uchun media queries */
+
+/* Mobil ekranlar uchun optimallashtirish */
+@media (max-width: 500px) {
+  .Project {
+    padding: 30px 20px; /* Mobilda bo'shliqni kamaytirish */
+  }
+
+  .Project-wrapper {
+    flex-direction: column; /* Vertikal joylashish */
+    align-items: center; /* Markazlashtirish */
+  }
+
+  .Project-text {
+    width: 100%; /* Matnni to'liq kenglikka chiqarish */
+    text-align: center; /* Matnni markazlashtirish */
+  }
+
+  .Project-text :nth-child(2) {
+    font-size: 36px; /* Mobil uchun kichikroq font */
+    line-height: 42px;
+  }
+
+  .Project-text :nth-child(3) {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px; /* Kichik ekranlarda marginni kamaytirish */
+  }
+
+  .Project-btn {
+    font-size: 14px; /* Kichik ekranlarda buttonni kichraytirish */
+    padding: 8px 15px;
+  }
+
+  .Project-img {
+    width: 100%; /* Rasmning kengligini 100% qilib, ekranga moslashtirish */
+    margin-top: 20px; /* Rasm va matn orasiga bo'shliq qo'shish */
+  }
+}
+
+/* Planshet uchun optimallashtirish */
+@media (min-width: 501px) and (max-width: 765px) {
+  .Project-wrapper {
+    flex-direction: column; /* Vertikal joylashish */
+    align-items: center;
+  }
+
+  .Project-text {
+    width: 80%; /* Planshetda matnning kengligini qisqartirish */
+    text-align: center; /* Matnni markazlashtirish */
+  }
+
+  .Project-text :nth-child(2) {
+    font-size: 42px; /* Planshet uchun font o'lchamini o'zgartirish */
+    line-height: 50px;
+  }
+
+  .Project-text :nth-child(3) {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 25px;
+  }
+
+  .Project-btn {
+    font-size: 15px; /* Planshet uchun buttonni o'lchamini sozlash */
+    padding: 9px 18px;
+  }
+
+  .Project-img {
+    width: 80%; /* Planshetda rasmni kichraytirish */
+    margin-top: 20px;
+  }
+}

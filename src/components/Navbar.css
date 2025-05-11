@@ -1,0 +1,149 @@
+.Navbar {
+  width: 100%;
+  height: 47px;
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.Nav-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 20px;
+}
+
+.Nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.Nav-ul > a {
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: inherit;
+}
+
+.Nav-languages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.Nav-language-btn {
+  cursor: pointer;
+  padding: 3px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: inherit;
+}
+
+.Nav-language-btn:hover {
+  color: white;
+  background: black;
+}
+
+.Nav-language-btn:focus {
+  color: white;
+  background: black;
+}
+
+.Nav-theme-btn {
+  cursor: pointer;
+  padding: 5px;
+  color: inherit;
+  border: 1px solid inherit;
+  background: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .Nav-links {
+    display: flex;
+    flex-direction: row; /* Bitta qatorga joylashish */
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Nav-ul {
+    display: flex;
+    flex-direction: row; /* Bitta qatorga joylashish */
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .Nav-ul > a {
+    font-size: 0.8rem; /* Mobil uchun o'zgartirilgan font o'lchami */
+  }
+
+  .Nav-language-btn,
+  .Nav-theme-btn {
+    font-size: 0.8rem; /* Kichik ekranlar uchun o'zgartirish */
+  }
+
+  .logo {
+    display: none; /* Logo mobil versiyada ko'rsatilmasin */
+  }
+}
+
+@media (max-width: 500px) {
+  .Nav-links {
+    display: flex;
+    justify-content: center; /* Linklarni markazga joylash */
+    align-items: center;
+    flex-direction: column; /* Navbar elementlarini vertikal qilish */
+    gap: 10px; /* elementlar orasidagi bo'shliqni kamaytirish */
+  }
+
+  .logo {
+    width: 5rem;
+    display: none; /* Kichik ekranlarda logo ko'rinmasin */
+  }
+
+  .Nav-ul > a {
+    font-size: 0.8rem; /* Kichik ekranlarda matn o'lchamini kichraytirish */
+  }
+
+  .Nav-language-btn {
+    padding: 5px 10px; /* Kichik ekranlarda tugmalarni biroz kengaytirish */
+    font-size: 0.8rem;
+  }
+
+  .Nav-theme-btn {
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 765px) {
+  .Nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* O'rtaga joylashtirish */
+    gap: 10px;
+  }
+
+  .logo {
+    display: none; /* O'rtacha ekranlarda logo ko'rinmasin */
+  }
+
+  .Nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Linklar orasida bo'shliqni tenglashtirish */
+  }
+}
