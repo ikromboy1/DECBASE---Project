@@ -98,19 +98,19 @@ const Footer = () => {
               <p className="Footer-ul-p">{t("Footer-ul4-p")}</p>
               <div className="Footer-link-icons">
                 <a href="https://www.facebook.com" target="_blank">
-                  <img src={Facebook} alt="" />
+                  <img src={Facebook} alt="FaceBook" title="FaceBook" />
                 </a>
                 <a href="https://www.twitter.com" target="_blank">
-                  <img src={Twitter} alt="" />
+                  <img src={Twitter} alt="Twitter" title="Twitter" />
                 </a>
                 <a href="https://www.instagram.com" target="_blank">
-                  <img src={Instagram} alt="" />
+                  <img src={Instagram} alt="Instagram"title="Instagram" />
                 </a>
                 <a href="https://www.linkedin.com" target="_blank">
-                  <img src={In} alt="" />
+                  <img src={In} alt="Linkedin" title="Linkedin" />
                 </a>
                 <a href="https://t.me/komiljanov_2009" target="_blank">
-                  <img src={UserLogo} alt="" className="Ikromboy Komiljanov of telegram logo."/>
+                  <img src={UserLogo} alt="Ikromboy Komiljanov of telegram logo." title="Komiljanov link" className="Name"/>
                 </a>
               </div>
             </ul>

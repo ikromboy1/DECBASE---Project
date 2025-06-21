@@ -106,7 +106,7 @@
 
 .Name {
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px outset black;
   animation: name 30s linear infinite;
   /* box-shadow: 0px 0px 10px 15px black; */
 }
