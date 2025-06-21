@@ -6,7 +6,8 @@ import Facebook from "../assets/facebook.png";
 import Twitter from "../assets/twitter.png";
 import Instagram from "../assets/instagram.png";
 import In from "../assets/in.png";
-import Name from "../assets/Name.png"
+// import Name from "../assets/Name.png"
+import UserLogo from "../assets/IkromboyLogo.png"
 
 import { useSelector, useDispatch } from "react-redux";
 import { toggleTheme } from "../slice/themeslice";
@@ -109,7 +110,7 @@ const Footer = () => {
                   <img src={In} alt="" />
                 </a>
                 <a href="https://t.me/komiljanov_2009" target="_blank">
-                  <img src={Name} alt="" className="Name"/>
+                  <img src={UserLogo} alt="" className="Ikromboy Komiljanov of telegram logo."/>
                 </a>
               </div>
             </ul>
